@@ -1,34 +1,25 @@
-# Dependencies
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Environment variables
-.env
-.env.local
-.env.*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-
-# OS files
+# OS / Editor
 Thumbs.db
-Desktop.ini
+.DS_Store
+*.swp
+*.swo
+.vscode/
 
-# Build outputs
-dist/
-build/
+# Logs
 *.log
 
-# Temporary files
-*.tmp
-*.temp
+# Dependency / build caches (not currently used, future proofing)
+node_modules/
+.dist/
+build/
+.tmp/
+.cache/
+
+# Bundler outputs
+public/build/
+
+# Images generated or temp
+*.tmp.png
+
+# Misc
+.env
